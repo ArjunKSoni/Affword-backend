@@ -2,6 +2,7 @@ const mongoose =require("mongoose");
 const SecretSchema = mongoose.Schema({
     UID:String,
     Email:String,
+    Name:String,
 },{
     timestamps:true,
 })
